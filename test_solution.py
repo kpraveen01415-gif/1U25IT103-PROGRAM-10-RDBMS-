@@ -42,3 +42,4 @@ def test_right_join():
     cursor.execute(select_statements[1])
     results = cursor.fetchall()
     assert len(results) == 4, f"Expected 4 rows, got {len(results)}"
+    
